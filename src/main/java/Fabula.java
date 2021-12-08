@@ -1,5 +1,5 @@
 
-package comunicacion;
+import comunicacion.*;
 
 
 public class Fabula extends Escrito{

@@ -1,4 +1,4 @@
-package comunicacion;
+import comunicacion.*;
 
 public class Alfabeto extends Pictograma {
     private String[] letras;
@@ -17,11 +17,8 @@ public class Alfabeto extends Pictograma {
     public void setLetras(String[] letras) {
         this.letras = letras;
     }
-
-    public String interpretacion() {
-        return interpretacion;
-    }
-
+    
+    
     public void setInterpretacion(String interpretacion) {
         this.interpretacion = interpretacion;
     } 
@@ -37,5 +34,9 @@ public class Alfabeto extends Pictograma {
             pantalla = pantalla + ", " + letras[i];
         }
         return pantalla;
+    }
+    @Override
+    public String interpretacion() {
+        return interpretacion;
     }
 }
