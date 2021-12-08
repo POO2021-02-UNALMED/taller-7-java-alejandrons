@@ -39,6 +39,6 @@ public abstract class Escrito extends Pictograma{
 		return  r;
 	}
 	
-	abstract protected int palabrasTotales(int palabrasPagina);
+	abstract int palabrasTotales(int palabrasPagina);
 	
 }
