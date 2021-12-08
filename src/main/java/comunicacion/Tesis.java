@@ -1,5 +1,5 @@
 
-import comunicacion.*;
+package comunicacion;
 
 
 public class Tesis extends Escrito{
@@ -58,6 +58,7 @@ public class Tesis extends Escrito{
         this.interpretacion = interpretacion;
     }
     
+    @Override
     public int palabrasTotales(int palabras){
         return super.getPaginas()*palabras*5;
     }
